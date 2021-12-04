@@ -1,6 +1,6 @@
 ﻿namespace DemoAbstraction
 {
-    abstract class Animal
+    internal abstract class Animal
     {
         public string name { get; set; }
         public int age { get; set; }
@@ -12,6 +12,7 @@
             this.age = age;
             this.sound = sound;
         }
+
         public abstract void Details();
     }
 }

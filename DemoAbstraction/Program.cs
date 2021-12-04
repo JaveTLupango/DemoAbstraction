@@ -1,11 +1,11 @@
-﻿using System;
-using DemoAbstraction.Classes;
+﻿using DemoAbstraction.Classes;
+using System;
 
 namespace DemoAbstraction
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Animal a = new ClassBird("Birdie", 1, "tweet");
             Animal b = new ClassCat("Mingay", 2, "Meow");
@@ -24,8 +24,6 @@ namespace DemoAbstraction
             Console.WriteLine(" ------------------ ");
             e.Details();
             Console.WriteLine(" ------------------ ");
-
         }
     }
 }
-

@@ -1,14 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DemoAbstraction.Classes
 {
-    class ClassCow : Animal
+    internal class ClassCow : Animal
     {
-        public ClassCow(string name, int age, string sound) : base(name, age, sound) { }
+        public ClassCow(string name, int age, string sound) : base(name, age, sound)
+        {
+        }
 
         public override void Details()
         {
